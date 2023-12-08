@@ -26,7 +26,7 @@ public class Message {
     private Integer id;
 
     @Column(name = "title", length = 255, nullable = false)
-    private String titile;
+    private String title;
 
     @Column(name = "content", length = 255, nullable = false)
     private String content;
@@ -46,12 +46,12 @@ public class Message {
         this.id = id;
     }
 
-    public String getTitile() {
-        return titile;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitile(String titile) {
-        this.titile = titile;
+    public void setTitle(String titile) {
+        this.title = titile;
     }
 
     public String getContent() {
